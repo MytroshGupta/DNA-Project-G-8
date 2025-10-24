@@ -1,0 +1,17 @@
+[build]
+  command = "pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate --noinput"
+  publish = "."
+
+[build.environment]
+  PYTHON_VERSION = "3.7"
+
+[[redirects]]
+  from = "/*"
+  to = "/Sign_Detection/wsgi.py"
+  status = 200
+
+[functions]
+  directory = "."
+
+[functions.environment]
+  DJANGO_SETTINGS_MODULE = "Sign_Detection.settings"
