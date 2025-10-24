@@ -3,18 +3,7 @@
 
 A deep learning based web app that compares the similarity between the two images of the signature and predicts if the signature matches or not. 
 
-App Link: https://sign-forgery-detection.herokuapp.com/
 
-Dataset Link: https://www.kaggle.com/robinreni/signature-verification-dataset
-
-![demo](https://github.com/ChiragChauhan4579/Sign-forgery-detection/blob/main/1623143565581.gif)
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/ChiragChauhan4579/Sign-forgery-detection
-```
 
 Go to the project directory
 
